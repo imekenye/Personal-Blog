@@ -66,6 +66,7 @@ def account():
 
     form = UpdateUserForm()
 
+
     if form.validate_on_submit():
         print(form)
         if form.picture.data:
@@ -84,7 +85,7 @@ def account():
         form.email.data = current_user.email
 
     profile_image = url_for('static', filename='profile_pics/' + current_user.profile_image)
-    return render_template('account.html', profile_image=profile_image, form=form)
+    return render_template('account.html', profile_image=profile_image,form=form)
 
 
 @users.route("/<username>")
