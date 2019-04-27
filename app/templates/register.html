@@ -1,12 +1,36 @@
 {% extends "base.html" %}
 {% block content %}
-<form method="POST">
-    {# This hidden_tag is a CSRF security feature. #}
-    {{ form.hidden_tag() }}
-    {{ form.email.label }} {{ form.email() }}<br>
-    {{ form.username.label }} {{ form.username() }}<br>
-    {{ form.password.label }} {{ form.password() }}<br>
-    {{ form.pass_confirm.label }} {{ form.pass_confirm() }}<br>
-    {{ form.submit() }}
-</form>
+    <div class="row col-md-12 mt-5" style="height: 100vh;">
+        <div class="card p-5 my-auto mx-auto" style="width:80% !important;">
+            <div class="card-heading text-center mt-5">
+                <h2 style="color: #4545D1;"><strong>Lets get you set up.</strong></h2>
+                <p>It should only take a couple of minutes</p>
+            </div>
+            <form method="POST" class="text-center"  >
+
+            {{ form.hidden_tag() }}
+
+                <div class="form-group ">
+                    {{ form.email.label(class="") }} {{ form.email(class="form-control") }}
+                </div>
+                <br>
+                <div class="form-group">
+                    {{ form.username.label }} {{ form.username(class="form-control form-control-sm") }}
+                </div>
+                <div class="form-group">
+                    {{ form.password.label }} {{ form.password(class="form-control form-control-sm") }}
+                </div>
+                <div class="form-group">
+                    {{ form.pass_confirm.label }} {{ form.pass_confirm(class="form-control form-control-sm") }}
+                </div>
+
+
+
+
+            {{ form.submit(class="btn btn-primary btn-lg") }}
+        </form>
+        </div>
+
+    </div>
+
 {% endblock %}
