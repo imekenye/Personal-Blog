@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="28px" viewBox="0 0 80 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13-inch-mac" transform="translate(-64.000000, -56.000000)">
+            <g id="Group" transform="translate(64.000000, 56.000000)">
+                <text id="Blogr" font-family="Lato-Bold, Lato" font-size="20" font-weight="bold" fill="#4545D1">
+                    <tspan x="32" y="23">Blogr</tspan>
+                </text>
+                <g id="Group-2" fill-rule="nonzero">
+                    <rect id="Rectangle" stroke="#4545D1" stroke-width="3" x="1.5" y="1.5" width="27" height="25"></rect>
+                    <rect id="Rectangle" stroke="#82B9FC" x="6.5" y="12.5" width="16" height="1"></rect>
+                    <rect id="Rectangle-Copy" stroke="#82B9FC" x="6.5" y="15.5" width="16" height="1"></rect>
+                    <rect id="Rectangle-Copy-2" stroke="#82B9FC" x="6.5" y="18.5" width="12" height="1"></rect>
+                    <rect id="Rectangle-Copy-3" stroke="#82B9FC" x="6.5" y="8.5" width="5" height="1"></rect>
+                    <polyline id="Path" stroke="#4545D1" stroke-width="3" points="23 2 23 8 28 8"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
