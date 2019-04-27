@@ -5,7 +5,7 @@
             <div class="col-md-6 mt-5">
                 <h1 style="color: #4545D1;">Welcome to Blogr</h1>
                 <p>Personal blog site for sharing opinions.<br>Interact with me and get my latest blog posts</p>
-                <a href="" class="btn" style="background-color: transparent;color:#4545D1; border: 1px solid #4545D1;">Lets get started!</a>
+                <a href="{{ url_for('users.register') }}" class="btn" style="background-color: transparent;color:#4545D1; border: 1px solid #4545D1;">Lets get started!</a>
             </div>
             <div class="col-md-6">
                 <img src="{{ url_for('static', filename='blogger.svg') }}" alt="">
@@ -44,5 +44,6 @@
             <li class="page-item"><a class="page-link" href="{{ url_for('main.index', page=page_num) }}">{{ page_num }}</a></li>
           {% endif %}
       {% endfor %}
+     </ul>
     </nav>
 {% endblock %}
