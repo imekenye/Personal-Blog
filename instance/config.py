@@ -1,1 +1,1 @@
-SECRET_KEY = 'as3hdgfh'
+SECRET_KEY = 'mysecret'
