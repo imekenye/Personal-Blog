@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container">
+        <div class="row d-flex h-100 mt-5">
+            <div class="col-md-6 mt-5">
+                <h1 style="color: #4545D1;">Welcome to Blogr</h1>
+                <p>Personal blog site for sharing opinions.<br>Interact with me and get my latest blog posts</p>
+                <a href="" class="btn" style="background-color: transparent;color:#4545D1; border: 1px solid #4545D1;">Lets get started!</a>
+            </div>
+            <div class="col-md-6">
+                <img src="{{ url_for('static', filename='blogger.svg') }}" alt="">
+            </div>
+        </div></div>
+{% endblock %}
