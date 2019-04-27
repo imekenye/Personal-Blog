@@ -1654,7 +1654,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary {
-  background-color: #f96332;
+  background-color: #4545D1;
   color: #FFFFFF;
 }
 
@@ -1669,7 +1669,7 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 .show>.btn-primary.dropdown-toggle,
 .show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
-  background-color: #fa7a50;
+  background-color: #4545D1;
   color: #FFFFFF;
   box-shadow: none;
 }
@@ -2626,7 +2626,7 @@ fieldset[disabled] .btn-link.active {
 .form-control {
   background-color: transparent;
   border: 1px solid #E3E3E3;
-  border-radius: 30px;
+  border-radius: 20px;
   color: #2c2c2c;
   height: auto;
   line-height: normal;
@@ -2645,7 +2645,7 @@ fieldset[disabled] .btn-link.active {
 }
 
 .form-control:focus {
-  border: 1px solid #f96332;
+  border: 1px solid #4545D1;
   -webkit-box-shadow: none;
   box-shadow: none;
   outline: 0 !important;
@@ -2654,7 +2654,7 @@ fieldset[disabled] .btn-link.active {
 
 .form-control:focus+.input-group-text,
 .form-control:focus~.input-group-text {
-  border: 1px solid #f96332;
+  border: 1px solid #4545D1;
   border-left: none;
   background-color: transparent;
 }
@@ -3589,7 +3589,7 @@ p {
 }
 
 .text-primary {
-  color: #f96332 !important;
+  color: #4545D1 !important;
 }
 
 .text-info {
@@ -4655,7 +4655,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .bg-primary {
-  background-color: #f96332 !important;
+  background-color: #4545D1 !important;
 }
 
 .bg-info {
