@@ -41,3 +41,5 @@ def process_results(quote_list):
         quote_results.append(quote_object)
 
     return quote_results
+
+
