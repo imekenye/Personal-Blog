@@ -11,8 +11,8 @@
 
 {% for post in blog_posts.items %}
 
-          <h2><a href="{{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}">{{ post.title }}</a></h2>
-          Written by: <a href="{{ url_for('users.user_posts', username=post.author.username) }}">{{ post.author.username }}</a>
+          <h2 class="text-primary"><a href="{{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}" class="text-primary">{{ post.title }}</a></h2>
+          <div class="text-primary">Written by:</div> <a href="{{ url_for('users.user_posts', username=post.author.username) }}">{{ post.author.username }}</a>
           <p class="text-muted">Published on: {{ post.date.strftime('%Y-%m-%d') }}</p>
           <br>
             <p>{{post.text}}</p>

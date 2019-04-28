@@ -22,26 +22,28 @@
         </div>
     </div>
 
-    <div class="container">
-
+    <div class="container mt-5 text-center">
+        <div class="card-columns">
     {# Go through each blog post #}
     {% for post in blog_posts.items %}
 
-            <div class="card" >
-
-                <div class="card-body">
 
 
-                    <h2><a class="card-title" href="  {{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}">{{ post.title }}</a></h2>
-                    <a href="{{ url_for('users.user_posts', username=post.author.username) }}">Written By: {{ post.author.username }}</a>
-                    <p>Published on: {{ post.date.strftime('%Y-%m-%d') }}</p>
-                    <p class="card-text">{{ post.text[:100] }}...</p>
+                <div class="w-100 h-100 card p-5">
+
+
+                    <h2><a class="card-title text-primary" href="  {{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}">{{ post.title[:20] }}</a></h2>
+                    <p class="card-text ">{{ post.text[:100] }}...</p>
+                    <h6 class="text-white badge badge-info">Published on: {{ post.date.strftime('%Y-%m-%d') }}</h6><br>
+                    <a href="{{ url_for('users.user_posts', username=post.author.username) }}" class="text-primary">Written By: {{ post.author.username }}</a><br>
                     <a href="{{ url_for('blog_posts.blog_post', blog_post_id=post.id) }}" class="btn btn-primary">Read Blog Post</a>
                 </div>
-            </div>
+
+    {% endfor %}
+        </div>
         </div>
 
-   {% endfor %}
+
 
      <nav aria-label="Page navigation example">
      <ul class="pagination justify-content-center">
