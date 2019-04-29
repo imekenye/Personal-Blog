@@ -11,7 +11,7 @@ Written by *Isaiah Mekenye*.
 2. Create a virtual environment and install flask in your repository folder 
 3. Run the IP address on the browser
 
-## Site Ineraction.
+## Site Interaction.
 1. Click the link on my github description to interact the site 
 2. Create a new writer account through the application as a writer:                                              
 This will ensure only authorized writers can post blogs on the application update or delete posts
